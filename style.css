@@ -1,0 +1,26 @@
+*{
+    font-family:monospace;
+}
+
+.header-font{
+    font-family:'Courier New';
+    font-size: 4rem;
+}
+.form {
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+label{
+    color: white;
+}
+
+.border-3 {
+    border-width:3px !important;
+}
